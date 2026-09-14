@@ -36,7 +36,7 @@ const UI = {
                             <div class="badge-group">${badgesHtml}</div>
                             <h3>${proj.titulo}</h3>
                             <p>${proj.descricao}</p>
-                            <button class="btn-primary w-100 btn-doar">Apoiar Projeto</button>
+                            <button class="btn-primary w-100 btn-doar" aria-label="Apoiar Projeto: ${proj.titulo}">Apoiar Projeto</button>
                         </article>
                     `;
                 }).join('');

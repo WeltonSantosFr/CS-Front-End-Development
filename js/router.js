@@ -35,6 +35,13 @@ const Router = {
                         link.classList.add('active');
                     }
                 });
+
+                // Gerenciamento de foco acessível para leitores de tela
+                const heading = this.container.querySelector('h2');
+                if (heading) {
+                    heading.setAttribute('tabindex', '-1');
+                    heading.focus();
+                }
             },
             
             // EVENTOS DA PÁGINA PROJETOS
