@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instituto Patas & Laços | Bem-Estar Animal</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="icon" href="/assets/images/logotipoCSS3.jpeg" type="image/jpeg" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js" defer></script>
+    <script src="/js/main.js" defer></script>
+    <script src="/js/router.js" defer></script>
+    <script src="/js/storage.js" defer></script>
+    <script src="/js/ui.js" defer></script>
+
+  </head>
+  <body>
+    <header>
+      <div class="header-brand">
+        <img
+          class="header-logo"
+          src="/assets/images/logotipoCSS3.jpeg"
+          alt="Logotipo do Instituto Patas & Laços"
+        />
+        <h1 class="header-ongName">Instituto Patas & Laços</h1>
+      </div>
+      <input
+        type="checkbox"
+        id="menu-toggle"
+        class="menu-toggle"
+        aria-label="Abrir menu de navegação"
+      />
+      <label for="menu-toggle" class="menu-icon" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="nav-container">
+        <ul>
+          <li><a class="nav-link active" href="#inicio" data-route="inicio">Início</a></li>
+          <li><a class="nav-link" href="#projetos" data-route="projetos">Projetos</a></li>
+          <li><a class="nav-link" href="#voluntariado" data-route="voluntariado">Voluntariado</a></li>
+          <li><a class="nav-link" href="#doar" data-route="doar">Como Doar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ALERTA CONTEXTUAL FIXO -->
+      <div class="alert alert-warning" role="alert">
+        <span class="alert-icon">⚠️</span>
+        <div class="alert-content">
+          <strong>Campanha de Inverno:</strong> Nosso abrigo está com estoque crítico de cobertores. Ajude-nos!
+        </div>
+      </div>
+
+      <!-- CONTÊINER DA SPA: O JAVASCRIPT VAI INJETAR O CONTEÚDO AQUI -->
+      <div id="app-container">
+          <!-- O conteúdo inicial será renderizado pelo main.js -->
+      </div>
+    </main>
+
+    <!-- TOAST DE NOTIFICAÇÃO (OCULTO POR PADRÃO) -->
+    <aside class="toast" id="toast-notificacao" role="status">
+      <span class="toast-icon">✓</span>
+      <div class="toast-body">
+        <strong id="toast-title">Ação concluída!</strong>
+        <p id="toast-message">Obrigado pelo interesse em nos ajudar.</p>
+      </div>
+    </aside>
+
+    <footer>
+      <p>
+        Copyright &copy; 2026 Instituto Patas & Laços. Todos os direitos
+        reservados.
+      </p>
+    </footer>
+  </body>
+</html>
