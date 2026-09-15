@@ -1,4 +1,6 @@
-const Router = {
+import { UI } from './ui.js';
+
+export const Router = {
             container: document.getElementById('app-container'),
             
             // Renderiza a rota e acopla eventos específicos

@@ -1,4 +1,4 @@
-const Storage = {
+export const Storage = {
             // Dados estáticos que alimentam as views
             dadosApp: {
                 projetos: [

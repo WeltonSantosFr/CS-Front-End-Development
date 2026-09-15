@@ -1,3 +1,5 @@
+import { Router } from './router.js';
+
 document.addEventListener('DOMContentLoaded', () => {
             // Inicializa na rota 'inicio'
             Router.navegarPara('inicio');

@@ -1,4 +1,6 @@
-const UI = {
+import { Storage } from './storage.js';
+
+export const UI = {
             // Exibe notificação
             mostrarToast: function(titulo, mensagem) {
                 const toast = document.getElementById('toast-notificacao');

@@ -1,0 +1,25 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "> **Resgatando vidas, reconstruindo lares.** Uma Single Page Application (SPA) desenvolvida para otimizar a gestão de projetos, atração de voluntários e captação de recursos para o ecossistema de proteção animal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeltonSantosFr/CS-Front-End-Development.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/WeltonSantosFr/CS-Front-End-Development/issues"
+  },
+  "homepage": "https://github.com/WeltonSantosFr/CS-Front-End-Development#readme",
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
